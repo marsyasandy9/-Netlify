@@ -1,6 +1,6 @@
 # -Netlify
 
-''''
+````
 define('PROXY_DOMAIN', 'wahidin-proxy.herokuapp.com'); //change it to your proxy domain without http/s & slash (/) at the end!
 define('.COOKIE_DOMAIN.', PROXY_DOMAIN);
 define('.SITECOOKIEPATH.', '.');
@@ -11,4 +11,4 @@ $_SERVER[ 'SERVER_ADDR' ] = PROXY_DOMAIN;
 if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') $_SERVER['HTTPS']='on';
 define('WP_HOME', 'https://'.PROXY_DOMAIN);
 define('WP_SITEURL', 'https://'.PROXY_DOMAIN);
-''''
+````
