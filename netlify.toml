@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/robots.txt"
+  to = "https://raw.githubusercontent.com/marsyasandy9/-Netlify/main/robots.txt"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/*"
+  to = "https://dev-jvak.pantheonsite.io/:splat"
+  status = 200
+  force = true
